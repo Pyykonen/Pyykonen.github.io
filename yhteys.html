@@ -2,7 +2,7 @@
 <html lang="fi">
 <head>
 	<meta charset="utf-8">
-	<title>Galleria</title>
+	<title>Etusivu</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="Muotoilut.css">
 </head>
@@ -24,39 +24,36 @@
   		</nav>
   	</div>
 
-<div class="taustakuva img-fluid bg-dark" style="background-image: url(taustakuva.jpg); background-repeat: no-repeat; height: 100vh">
+	<div class="taustakuva img-fluid bg-dark" style="background-image: url(taustakuva.jpg); background-repeat: no-repeat; height: 100vh">	
 
-	<div class="container">
-		<h1 class="heading p-3">Galleria</h1>
-	</div>
+<div class="container text-center"><br><br>
+	<h1>Kiitos kun kävit sivustollani</h1>
+	<h5>Jos kiinnostuit vaeltamisesta ja haluat minulta jatkossa päivityksiä tulevista retkistä, niin täytä alle tietosi. Infoa tulevista reissuistani ja mahdollisesta osallistumisesta niihin. Jätä myös palautetta sivustosta, kiitos!</h5>
+<form>
+  		<label for="enimi"><strong>Etunimi:</strong></label><br>
+  		<input type="text" id="enimi" name="enimi"><br>
+  		<label for="snimi"><strong>Sukunimi:</strong></label><br>
+  		<input type="text" id="snimi" name="snimi"><br>
+  		<label for="email"><strong>Sähköposti:</strong></label><br>
+  		<input type="text" id="email" name="email"><br>
+	</form>
 
-	<div class="mt-3 mb-3"></div>
+	<form>
+		<label for="palaute"><strong>Jätä palautetta:</strong></label><br>
+		<textarea id="palaute" name="palaute" rows="4" cols="80"></textarea><br>
+	</form>
 
-		
-	<div class="container text-center">
-			<img src="s1.jpg" alt="sarek" style="width:40%;"><br>
-			<a href="Sarek.html" class="btn btn-info" role="button">Sarek 2016</a>
-	</div><br>
+	<form>
+		<input type="checkbox" id="roskaposti" name="check" value="posti"><br>
+		<label for="roskaposti"><strong>Tilaa uutiskirje!</strong></label><br>
+	</form><br>
 
-	<div class="mt-2 mb-2"></div>
-
-	<div class="container text-center">
-			<img src="a2.jpg" alt="abisko" style="width:40%;"><br>
-			<a href="Abisko-Kebnekaise.html" class="btn btn-info" role="button">Abisko 2018</a>
-	</div><br>
-
-	<div class="mt-2 mb-2"></div>
-
-	<div class="container text-center">
-			<img src="n7.jpg" alt="narvik" style="width:40%;"><br>
-			<a href="Narvik.html" class="btn btn-info" role="button">Narvik 2019</a>
-	</div><br>
+	<form>
+		<a href="#" class="btn btn-info" role="button">Lähetä</a><br>
+	</form>
 </div>
 
-
-
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
